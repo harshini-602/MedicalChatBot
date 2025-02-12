@@ -41,12 +41,13 @@ Make sure Ollama is running in the background, then start the Streamlit app:
 streamlit run app.py
 ```
 
-### 📝 How It Works
-1️⃣ Users input health-related queries in the chat interface.
-2️⃣ The chatbot processes the query using MedLLaMA 2 via Ollama.
-3️⃣ The response is generated and displayed in the chat format.
-4️⃣ Users can reset the conversation anytime with the "Start Over" button.
+## 📝 How It Works
+1. 🏥 **Users input health-related queries** in the chat interface.  
+2. 🤖 The chatbot **processes the query** using **MedLLaMA 2** via **Ollama**.  
+3. 📩 The **response is generated and displayed** in a conversational format.  
+4. 🔄 Users can **reset the conversation** anytime with the **"Start Over"** button.  
 
-### ⚠️ Disclaimer
-This chatbot is not a substitute for professional medical diagnosis or treatment. Always consult a certified healthcare provider for medical concerns.
+## ⚠️ Disclaimer  
+This chatbot is **not a substitute for professional medical diagnosis or treatment**.  
+Always consult a **certified healthcare provider** for medical concerns.  
 

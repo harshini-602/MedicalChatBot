@@ -29,13 +29,24 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/yourusername/medical-advisor-chatbot.git
 cd medical-advisor-chatbot
-
-### 3️⃣ Install Dependencies  
+```
+### 3️⃣ Install Dependencies
+Run the following command to install all required dependencies: 
 ```bash
 pip install -r requirements.txt
-
+```
 ### 4️⃣ Run the Chatbot
-Make sure Ollama is running, then start the Streamlit app:
+Make sure Ollama is running in the background, then start the Streamlit app:
 ```bash
 streamlit run app.py
+```
+
+### 📝 How It Works
+1️⃣ Users input health-related queries in the chat interface.
+2️⃣ The chatbot processes the query using MedLLaMA 2 via Ollama.
+3️⃣ The response is generated and displayed in the chat format.
+4️⃣ Users can reset the conversation anytime with the "Start Over" button.
+
+### ⚠️ Disclaimer
+This chatbot is not a substitute for professional medical diagnosis or treatment. Always consult a certified healthcare provider for medical concerns.
 

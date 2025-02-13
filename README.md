@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ### 4️⃣ Run the Chatbot
 Make sure Ollama is running in the background, then start the Streamlit app:
 ```bash
-streamlit run app.py
+streamlit run medbot.py
 ```
 
 ## 📝 How It Works
